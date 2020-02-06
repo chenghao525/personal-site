@@ -11,6 +11,9 @@
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
+.my-navbar{
+    height: 70px;
+}
 
 
 #mainNav .navbar-toggler{
@@ -32,7 +35,15 @@
 .banner-heading{
     text-align: center;
     font-size: 100px;
-    font-family:Roboto;
     font-weight:100;
     font-style:normal
+}
+
+.banner-btn{
+    border: 1px solid white;
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color: black;
 }
