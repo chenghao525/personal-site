@@ -2,6 +2,10 @@
     --primary-color: #91b9e7
 }
 
+a{
+    all:unset
+}
+
 .primary-color{
     color: var(--primary-color) !important;
 }
@@ -40,10 +44,21 @@
 }
 
 .banner-btn{
-    border: 1px solid white;
+    color: #555;
+    height: 35px;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px 11px;
+    background-color: transparent;
+    border: 2px solid #555;
+    border-radius: 5px;
 }
 
 .banner-btn:hover{
-    background-color: white;
-    color: black;
+    background-color: #555;
+    color: white !important;
 }
+
