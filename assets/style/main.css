@@ -34,6 +34,7 @@ a{
 
 .navbar-nav .nav-item .nav-link:hover{
     color: var(--primary-color) !important;
+    cursor: pointer;
 }
 
 .banner-heading{
@@ -61,4 +62,9 @@ a{
     background-color: #555;
     color: white !important;
 }
+
+.masthead{
+    filter: opacity(.8);
+}
+
 
